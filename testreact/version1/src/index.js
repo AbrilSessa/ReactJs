@@ -3,8 +3,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-/*--Componentes--*/
+/*--Estilo--*/
 import './index.css';
+
+/*--Componentes--*/
 import App from './App';
 
 /*--Web Vitals--*/
@@ -16,7 +18,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /*--Aca se Reinderiza--*/
 root.render(
   <React.StrictMode>
-    <App />
+  <NavBar 
+    saludo="Hola"
+    despedida="Chau"
+    />
+    <ItemlistContainer greeting="Hola Mundo"/>
+
+    <Footer/>   
   </React.StrictMode>
 );
 
