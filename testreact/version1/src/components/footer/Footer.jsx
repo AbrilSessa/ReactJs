@@ -2,9 +2,6 @@
                 Importaciones
 ###############################################*/
 
-//Modulos
-//Estilos
-import './Footer.css'
 import React from "react";
 import {
     MDBFooter,
@@ -20,24 +17,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { LinkContainer } from "react-router-bootstrap";
-//Componentes
-//Core
 
 /*#############################################
-                Logica
-###############################################
-const Footer = () => {//Funcion constructora
-
-    return (
-
-        <footer className="footer">
-            <p>Web App powered by React JS with C. Function 2023 </p>
-        </footer>
-
-    )
-
-}*/
-
+            Valores
+###############################################*/
 const Footer = () => {
     return (
         <>
